@@ -1,6 +1,6 @@
 {
 	"name": "juzna/nette-date-paginator",
-	"description": "Simple paginator",
+	"description": "Paginator by date",
 	"keywords": ["paginator", "date", "nette"],
 	"homepage": "http://forum.nette.org/cs/11574-datepaginator-strankovani-po-dnech",
 	"license": "BSD-3",
@@ -18,7 +18,8 @@
 		"classmap": [ "DatePaginator.php", "VisualDatePaginator.php", "exceptions.php" ]
 	},
 	"require": {
-		"nette/nette": "2.0.*"
+		"nette/nette": "2.0.*",
+		"juzna/nette-date-picker": "@dev"
 	},
 	"extra": {
 		"nette": {
