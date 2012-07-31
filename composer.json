@@ -1,0 +1,33 @@
+{
+	"name": "juzna/nette-date-paginator",
+	"description": "Simple paginator",
+	"keywords": ["paginator", "date", "nette"],
+	"homepage": "http://forum.nette.org/cs/11574-datepaginator-strankovani-po-dnech",
+	"license": "BSD-3",
+	"authors": [
+		{
+			"name": "Martin Štekl",
+			"email": "martin.stekl@gmail.com"
+		},
+		{
+			"name": "Jan Dolecek",
+			"email": "juzna.cz@gmail.com"
+		}
+	],
+	"autoload": {
+		"classmap": [ "*.php" ]
+	},
+	"require": {
+		"nette/nette": "2.0.*"
+	},
+	"extra": {
+		"nette": {
+			"assets": {
+
+			},
+			"assets-optional": {
+				
+			}
+		}
+	}
+}
